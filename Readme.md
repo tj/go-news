@@ -8,7 +8,7 @@ Create a DynamoDB table with a __Partition Key__ of "newsletter", and a __Sort K
 
 ---
 
-[![GoDoc](https://godoc.org/github.com/?status.svg)](https://godoc.org/github.com/)
+[![GoDoc](https://godoc.org/github.com/?status.svg)](https://godoc.org/github.com/tj/go-news)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ![](https://img.shields.io/badge/status-stable-green.svg)
 
