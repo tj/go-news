@@ -77,7 +77,6 @@ func (s *Store) RemoveSubscriber(newsletter, email string) error {
 func (s *Store) GetSubscribers(newsletter string) (emails []string, err error) {
 	query := &dynamodb.QueryInput{
 		TableName:              &s.TableName,
-		AttributesToGet:        aws.StringSlice([]string{"email"}),
 		KeyConditionExpression: aws.String(`newsletter = :newsletter`),
 		ExpressionAttributeValues: map[string]*dynamodb.AttributeValue{
 			":newsletter": &dynamodb.AttributeValue{
